@@ -48,3 +48,4 @@ for sam_sz in sample_size:
 
 plt.legend()
 plt.show()
+
