@@ -11,3 +11,4 @@ def create_driver(headless: bool = True) -> webdriver.Chrome:
     options.add_argument("--disable-dev-shm-usage")
 
     return webdriver.Chrome(service=Service(), options=options)
+
